@@ -134,6 +134,7 @@
       justify-content: flex-end;
       gap: 0.5rem;
       font-size: 0.82rem;
+      flex-wrap: wrap;
     }
 
     .nav-link {
@@ -413,6 +414,12 @@
       width: 100%;
       margin: 1.5rem 0;
       background: linear-gradient(to right, transparent, rgba(55, 65, 81, 0.9), transparent);
+    }
+
+    .contact-item-value a,
+    .project-link {
+      word-break: break-all;
+      /* 或 overflow-wrap: anywhere; 也可以 */
     }
 
     /* CSS:BASE-END */
